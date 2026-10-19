@@ -1,0 +1,1 @@
+var mb=document.getElementById('mb'),nv=document.getElementById('nv');mb.onclick=function(){mb.setAttribute('aria-expanded',nv.classList.toggle('open'))};nv.addEventListener('click',function(e){if(e.target.tagName=='A')nv.classList.remove('open')});
